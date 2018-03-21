@@ -1,13 +1,45 @@
 body {
   background-color: #9EA738;
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Lora', serif;
+  font-size: 100%;
   padding: 25px;
   margin: 44px;
-  background-color:
-
-
 }
 
 div {
   height: 250px;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 5.0875em;
+}
+
+#opener {
+  display: flex;
+  align-items: end;
+}
+
+#opener2 {
+  font-family: 'Lora', serif;
+  font-size: 3.075em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.25em;
+}
+
+h3 {
+  text-align: center;
+}
+
+#whoare {
+  text-align: center;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
 }
