@@ -1,0 +1,117 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 100%;
+  padding: 25px;
+  margin: 44px;
+}
+
+.primBox {
+  display: flex;
+  max-width: 100%;
+  background: #ffffff;
+  justify-content: center;
+  padding: 10px 5 px;
+  padding-bottom: 15px;
+      .firstChild {
+        padding: 20px;
+        margin: 0 5px;
+        width: 25%
+        padding-bottom: 0px;
+      }
+}
+
+#subHead {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.75em;
+  padding: auto;
+  border-top-color: #000000;
+  text-align: center;
+  border: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 5.0875em;
+  background-color: #000000;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.0em;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  padding-bottom: 44px;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 1.75em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+
+h4 {
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.firstBox {
+  display: flex;
+  max-width: 100%;
+  background: #ffffff;
+  justify-content: center;
+  font-family: 'Anton', sans-serif;
+  padding: 10px 5 px;
+      .firstChild {
+        padding: 20px;
+        margin: 0 5px;
+        width: 25%
+        font-family: 'Lora', serif;
+        flex-direction: column;
+
+      }
+}
+
+
+.nextBox {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 5 px;
+  border-top: 5px;
+    .nextChild {
+      padding: 20px;
+      margin: 0 5px;
+      width: 25%
+
+    }
+}
+
+
+.mainBox {
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 5 px;
+    .mainChild {
+      padding: 20px;
+      margin: 0 5px;
+      width: 25%
+    }
+}
