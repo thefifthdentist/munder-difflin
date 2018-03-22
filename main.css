@@ -17,10 +17,10 @@ h1 {
 }
 
 #curlicues {
-
   justify-content: center;
   text-align: center;
   width: 100%;
+  height: auto;
 }
 
 #about-us {
