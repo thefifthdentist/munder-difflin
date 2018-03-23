@@ -1,3 +1,20 @@
+
+
+
+
+//hover
+var e = document.getElementbyId('parent');
+e.onmouseover = function () {
+  document.getElementbyId('popup').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementbyId('popup').style.display = 'none';
+}
+
+
+
+
+//SLIDESHOW
 var slideIndex = 1;
 showDivs(slideIndex);
 
