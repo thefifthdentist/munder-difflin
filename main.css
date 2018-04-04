@@ -7,8 +7,9 @@ body {
   margin: 45px;
 }
 
-      /*Carousel Intended Here*/
-      * {box-sizing:border-box}
+/*Slideshow - this was heavily influenced by https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots. The reason I say "influenced" is because I couldnt even make it work properly. In my attempt to understand the code, I copied it out longhand, and then typed it back in. Even so, some probable comma or bracket error (or completely wrong code) made the slide number not appear. I was interested in getting "something on the page",
+but I recognize that this is less than ideal. It is less than ideal for me, too. I WANT to learn how to write code. From scratch. WITHOUT consulting Google first thing. I'm not there, and until this weekend, I didn't think that I could ever say "yet". But I am closer. And even though we learned an easier way to do this, let me tell you that I didn't agree to pay a small fortune to NOT learn to code. I just hope that you can put up with me in the meantime. */
+  * {box-sizing:border-box}
 
       .slideshow-container {
         max-width: 1000px;
